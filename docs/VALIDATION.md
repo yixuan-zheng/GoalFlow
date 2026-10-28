@@ -21,8 +21,19 @@ Evidence verification checks seven unchanged historical records/excerpts and thr
 
 ## GitHub Actions
 
-`.github/workflows/offline.yml` defines Linux Python 3.12/3.13 jobs. An authenticated repository search returned no accessible GoalFlow repository. None was created or pushed. Therefore Actions has **not run**, no workflow URL exists, and this remains an explicit publication gate after separate authorization. Local Docker results do not satisfy that hosted-CI gate.
+The public repository is [yixuan-zheng/GoalFlow](https://github.com/yixuan-zheng/GoalFlow). The initial publication commit `7f4c8a5a2681c06e42fd65599641124b8e361b94` passed the actual hosted [Offline validation run](https://github.com/yixuan-zheng/GoalFlow/actions/runs/40780679105). Both Linux jobs completed successfully:
+
+| Hosted job | Baseline | Lifecycle | Demo | Historical evidence |
+| --- | --- | --- | --- | --- |
+| Python 3.12 | 93 passed, 16.03s | 38/38 | Passed; needs_review; 94 revision assertions | Seven records and upstream Git blobs verified |
+| Python 3.13 | 93 passed, 15.08s | 38/38 | Passed; needs_review; 94 revision assertions | Seven records and upstream Git blobs verified |
+
+These timings identify the observed runs; they are not a performance comparison. [Latest workflow results](https://github.com/yixuan-zheng/GoalFlow/actions/workflows/offline.yml) track subsequent publication-metadata commits. Every push triggers the same matrix. Tests, assertions, lockfile and historical evidence are unchanged from the approved candidate.
+
+The repository API and a credential-free clone confirmed public access. The clone matched all 209 initial candidate files byte-for-byte. README local link targets resolve, and GitHub's public page includes the Mermaid architecture markup. Licensing and upstream notices are preserved.
+
+GitHub emitted nonblocking notices about Node 20 action runtime migration and the ubuntu-latest image transition; both jobs succeeded. No portability/build repair was necessary.
 
 ## Optional and historical limitations
 
-OpenAI execution, Drive integration, optional Restate/Paperclip comparison execution and hosted-model studies were not validated in this release. Historical human semantic review remains unresolved. No Step 4 intervention or new general framework is claimed. macOS Python 3.12, other operating systems and x86 Linux were not freshly tested.
+OpenAI execution, Drive integration, optional Restate/Paperclip comparison execution and hosted-model studies were not validated in this release. Historical human semantic review remains unresolved. No Step 4 intervention or new general framework is claimed. macOS Python 3.12 and other operating systems were not freshly tested. Hosted Ubuntu runner execution supplements the earlier local container checks.

@@ -1,5 +1,7 @@
 # GoalFlow
 
+[![Offline validation](https://github.com/yixuan-zheng/GoalFlow/actions/workflows/offline.yml/badge.svg)](https://github.com/yixuan-zheng/GoalFlow/actions/workflows/offline.yml)
+
 **Persistent, inspectable tool-using workflows.** GoalFlow is an agent workflow evaluation lab: a synthetic workplace, a scoped MCP server, a checkpointed agent loop and a separate outcome evaluator. It demonstrates how execution can survive interruption while keeping completion claims and supporting evidence inspectable.
 
 ## Run the offline demo
@@ -40,7 +42,7 @@ python -m scripts.demo
 python -m scripts.verify_evidence
 ```
 
-Current release validation: **93 baseline tests and 38/38 GoalFlow lifecycle cells passed** in a freshly installed, relocated macOS/Python 3.13 source tree and clean Linux containers on Python 3.12 and 3.13. The demo and evidence checks also passed on each. GitHub Actions is configured but **has not run**; see [release validation](docs/VALIDATION.md). This is source-tree execution, not a wheel distribution.
+Current release validation: **93 baseline tests and 38/38 GoalFlow lifecycle cells passed** in a freshly installed, relocated macOS/Python 3.13 source tree and clean Linux containers on Python 3.12 and 3.13. The demo and evidence checks also passed on each. GitHub Actions **passed on Linux for Python 3.12 and 3.13**, covering the same baseline, lifecycle, demo and evidence commands; see [release validation](docs/VALIDATION.md). This is source-tree execution, not a wheel distribution.
 
 ## Results and limits
 
@@ -57,4 +59,4 @@ The scheduler and workers are scripted, leases use logical time, and application
 
 [Reproduction and optional integrations](docs/REPRODUCTION.md) · [Provenance and license review](docs/PROVENANCE.md) · [Third-party notices](THIRD_PARTY_NOTICES.md) · [Release readiness](RELEASE_READINESS.md)
 
-MIT for independently authored work; upstream code retains its own notices. No public push has been authorized.
+MIT for independently authored work; upstream code retains its own notices. Published at [yixuan-zheng/GoalFlow](https://github.com/yixuan-zheng/GoalFlow).

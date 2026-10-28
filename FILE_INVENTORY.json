@@ -1,7 +1,7 @@
 {
   "file_count_including_inventory": 209,
   "inventory_self_hash": "excluded to avoid a recursive digest",
-  "payload_bytes_excluding_inventory": 1093894,
+  "payload_bytes_excluding_inventory": 1094911,
   "files": [
     {
       "path": ".env.example",
@@ -25,13 +25,13 @@
     },
     {
       "path": "README.md",
-      "bytes": 4056,
-      "sha256": "4ed00b63c3982260a29e5f6703a595ee48b3a06b7f1ae6951ed6a424ac4af4c6"
+      "bytes": 4357,
+      "sha256": "9e97860f8e768498fb301f40a7b31785e53397dc931cb4b7535010801b01ce3f"
     },
     {
       "path": "RELEASE_READINESS.md",
-      "bytes": 5025,
-      "sha256": "98818f07460d4c38a122b59027d8535f5dc968b778b62603662186768652c0ef"
+      "bytes": 4515,
+      "sha256": "6c7433a579b07a47d9a1ee73c34ebec1ec8f4e4c20eca4e77a55f3fd97263a31"
     },
     {
       "path": "SOURCE_PROVENANCE.json",
@@ -100,8 +100,8 @@
     },
     {
       "path": "docs/VALIDATION.md",
-      "bytes": 2855,
-      "sha256": "5d43fd3fdc81172f9f493c0d559665b3cf261f7f59af9f411f56fc2aadc50679"
+      "bytes": 4081,
+      "sha256": "094fe86ec969051ad86ffd669ce68f4469c923de9b4758dd89727a6927eb806c"
     },
     {
       "path": "docs/dependency-notices/PyJWT/AUTHORS.rst",

@@ -1,47 +1,39 @@
-# GoalFlow release readiness — October 28, 2026
+# GoalFlow publication verification — October 28, 2026
 
-**Verdict: CONDITIONAL GO.** The public candidate is packaged and passes clean macOS and local Linux validation. A real GitHub Actions run remains pending because no repository exists or was published. No public push is authorized.
+**Verdict: GO.** The owner authorized public publication under `yixuan-zheng/GoalFlow`. The approved source was published with fresh Git history and actual GitHub Actions validation passed. No new agent feature, paid model study or historical rescore was introduced.
 
-## Candidate and inventory
+## Public repository and inventory
 
-The release is the `release-candidate/` tree, separate from the approved Phase 1 project and all original development/archive folders. `FILE_INVENTORY.json` lists every other file, byte size and SHA-256. The candidate contains 209 files including that inventory. Its inventory intentionally does not hash itself.
+- Repository: [yixuan-zheng/GoalFlow](https://github.com/yixuan-zheng/GoalFlow), public access confirmed by an unauthenticated API request and clone.
+- Initial publication commit: `7f4c8a5a2681c06e42fd65599641124b8e361b94`.
+- Initial tree: all 209 approved candidate files matched byte-for-byte.
+- Publication-only follow-up: `README.md`, `docs/VALIDATION.md`, this report and `FILE_INVENTORY.json`. These record actual publication/CI, add the status badge and refresh inventory hashes. No files added or removed; all other 205 files remain unchanged.
+- `FILE_INVENTORY.json` lists all other files, sizes and SHA-256, intentionally excluding its own recursive hash. The source approval and historical findings remain intact.
 
-Included: offline world and synthetic fixtures; MCP server; persistent baseline, evaluator and capture/freeze machinery; lifecycle prototype and optional backend source; tests; pinned offline requirements; CI workflow; architecture/reproduction/provenance documents; seven curated historical records; MIT license and upstream notices.
+## Actual GitHub validation
 
-Excluded: private environment/credential/OAuth files; internal ledgers and all SQLite/runtime stores; logs, caches and installed dependencies; raw archives and redundant snapshots; Google readiness probes; machine-specific historical trace files and irrelevant proposals. Original directories and evidence remain unchanged. Selected report excerpts omit complete sections rather than altering retained lines.
+The initial commit's [hosted Actions run](https://github.com/yixuan-zheng/GoalFlow/actions/runs/40780679105) concluded **success**. Both Linux Python 3.12 and 3.13 jobs ran locked dependency installation, **93 baseline tests**, **38/38 lifecycle cells**, the credential-free subprocess MCP/revision demo and the historical evidence verifier. Logs show pending semantic review rather than an invented human pass, and verify seven historical records plus exact upstream Paperclip Git blobs. No historical experiment was rerun.
 
-## Fresh validation
+The publication-only follow-up triggers the same workflow; [latest results](https://github.com/yixuan-zheng/GoalFlow/actions/workflows/offline.yml) identify its commit and conclusion. The final user-facing publication report supplies the final SHA and matching run URL without creating a self-referential commit hash in this document. See `docs/VALIDATION.md` for prior clean macOS/local Linux validation and initial hosted timings.
 
-| Check | Result |
-| --- | --- |
-| Fresh locked installation | Passed on macOS Python 3.13 and Linux Python 3.12/3.13 |
-| Baseline suite | 93/93 in each environment |
-| GoalFlow lifecycle checks | 38/38 in each environment |
-| Credential-free subprocess MCP and revision demo | Passed in each; semantic review remains pending |
-| Historical subset integrity | Seven records verified; 112/112 saved cells retained |
-| Paperclip upstream identity | All three retained Git blobs verified |
-| Dependency consistency | No broken requirements |
-| Local documentation links | No missing file targets |
-| GitHub Actions | NOT RUN; no repository, workflow URL or hosted result |
+## Licensing, privacy and provenance
 
-See `docs/VALIDATION.md` for execution details and image identities. Existing tests were not weakened; no historical experiment was rerun or rescored. The repository-creation/push step awaits separate authorization, after which the configured workflow must actually pass before claiming passing CI.
+Ownership and MIT licensing were explicitly confirmed by the owner. The root MIT license and original Paperclip copyright/license remain unchanged. The exact upstream Git blobs verify; `THIRD_PARTY_NOTICES.md`, dependency notices and source provenance remain included. Dependencies retain their own licenses; external SDKs/runtimes are not bundled or relicensed.
 
-## License and ownership
+A whole-tree publication audit found no credential signatures, private machine paths, unexpected private emails, SQLite/runtime databases, hidden ledgers, symlinks, archives, caches or unrelated histories. The 137 synthetic `.test` address occurrences and 14 public upstream attribution emails are intentional. No raw databases/logs/archives are distributed. Markdown local targets resolve and the public README exposes its Mermaid architecture. Signature scans cannot guarantee absence of every possible secret; the full internal archives remain private.
 
-The owner explicitly confirmed publication rights and selected MIT. Independently authored code, fixtures and reports are covered by the root MIT license. Paperclip's unchanged MIT license, copyright and provenance remain alongside its code. The runtime and SDK dependencies are external installations, not bundled source or binaries; their declared licenses and supplied notices are recorded in `THIRD_PARTY_NOTICES.md` and `docs/DEPENDENCIES.json`.
+Original development directories and the approved release candidate were preserved. Publication uses a separate clean working copy. Historical records are unchanged full copies or clearly labeled exact-line excerpts, with hashes and omitted private material documented in the evidence index.
 
-No conflict was identified between the shipped MIT code and vendored Paperclip MIT source. Dependency declarations include MIT, BSD, Apache alternatives, PSF and certifi's MPL-2.0; those packages retain their own licenses. This is a source/notice review and owner attestation, not independent verification of contractual ownership. Optional third-party services remain subject to their own terms.
+## Repository metadata
 
-## Privacy and provenance audit
+Description: A durable agent-workflow evaluation lab with a persistent MCP baseline, synthetic workflows, and inspectable lifecycle evidence.
 
-Every publication file was scanned as bytes, including JSON, fixtures, notices and lockfiles. All JSON parses. No credential signatures, private machine paths, unexpected personal email addresses, symlinks, SQLite magic headers, archives, runtime databases, caches or private environment files remain. The only email matches are synthetic `.test` fixture addresses and public upstream attribution retained in notices. Exact counts and the scan limitations are in `docs/PRIVACY_SCAN.json`.
+Topics: `ai-agents`, `mcp`, `agent-evaluation`, `workflow-engine`, `python`, `sqlite`.
 
-No SQLite/log/archive contents are shipped; those raw artifacts were excluded, not rewritten. Historical records are unchanged copies or explicitly ranged byte-exact excerpts, with original hashes recorded. Full internal archives stay private. Signature scanning reduces risk but cannot prove the absence of every possible secret.
+## Remaining limitations
 
-## Limits and final gate
+Human semantic review of the hosted-model study remains unresolved. Step 3 is still ten automatic passes and two rejected claims; separate AI adjudication found one material omission without a recurring mechanism. The historical lifecycle comparison remains 112/112 cells with 8.8% source reduction against a 30% gate. Integrity verification does not reproduce every historical assertion.
 
-Supported claims: persistent local tool execution, bounded controls, replay/fencing boundaries, inspectable evidence and deterministic contract conformance. Unsupported: production reliability, remote exactly-once effects, generalization, developer productivity gains, semantic correctness without review, or a novel orchestration framework.
+Optional hosted-model, Google and Restate/Paperclip execution were not revalidated for publication. Production reliability, remote exactly-once effects, generalization, developer-productivity improvement and novelty as an orchestration framework remain unsupported claims. CI emitted nonblocking action-runtime and runner-image transition notices; no test failed and no assertion was weakened.
 
-Historical findings remain 10 automatic passes/two rejected claims; one separately AI-adjudicated material omission without recurring mechanism; and 112/112 lifecycle cells with only 8.8% source reduction against a 30% gate. No results are promoted into independently verified delivery reliability.
-
-Remaining publication conditions: separate user authorization to create/push the repository, actual passing GitHub Actions on the packaged commit, and review of that final staged file inventory. No further research, agent features or paid studies are required.
+Publication and verification complete the requested project scope. Further work is limited to an actual release defect.
