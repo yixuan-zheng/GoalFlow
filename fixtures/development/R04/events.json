@@ -1,0 +1,46 @@
+[
+  {
+    "id": "leo-review",
+    "trigger": {
+      "kind": "message_sent",
+      "recipient": "leo",
+      "topic": "review_request",
+      "artifact_version": 1
+    },
+    "delay_business_minutes": 15,
+    "kind": "message",
+    "payload": {
+      "id": "in-leo-review",
+      "sender": "leo",
+      "recipient": "coordinator",
+      "thread": "HL-website",
+      "topic": "feedback",
+      "body": "Keep the short interest form. Change the hero to “Evening learning, at your pace.”",
+      "artifact_version": 1,
+      "subject": null,
+      "decision": null
+    }
+  },
+  {
+    "id": "nia-review",
+    "trigger": {
+      "kind": "message_sent",
+      "recipient": "nia",
+      "topic": "review_request",
+      "artifact_version": 1
+    },
+    "delay_business_minutes": 20,
+    "kind": "message",
+    "payload": {
+      "id": "in-nia-review",
+      "sender": "nia",
+      "recipient": "coordinator",
+      "thread": "HL-website",
+      "topic": "feedback",
+      "body": "Keep name and email. Improve workshop-card heading contrast and preserve keyboard focus.",
+      "artifact_version": 1,
+      "subject": null,
+      "decision": null
+    }
+  }
+]

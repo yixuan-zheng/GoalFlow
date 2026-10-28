@@ -1,0 +1,171 @@
+[
+  {
+    "id": "leo-review",
+    "trigger": {
+      "kind": "message_sent",
+      "recipient": "leo",
+      "topic": "review_request",
+      "artifact_version": 1
+    },
+    "delay_business_minutes": 15,
+    "kind": "message",
+    "payload": {
+      "id": "in-leo-review",
+      "sender": "leo",
+      "recipient": "coordinator",
+      "thread": "HL-website",
+      "topic": "feedback",
+      "body": "I prefer a long multi-step presentation with the same approved fields.",
+      "artifact_version": 1,
+      "subject": null,
+      "decision": null
+    }
+  },
+  {
+    "id": "nia-review",
+    "trigger": {
+      "kind": "message_sent",
+      "recipient": "nia",
+      "topic": "review_request",
+      "artifact_version": 1
+    },
+    "delay_business_minutes": 20,
+    "kind": "message",
+    "payload": {
+      "id": "in-nia-review",
+      "sender": "nia",
+      "recipient": "coordinator",
+      "thread": "HL-website",
+      "topic": "feedback",
+      "body": "I prefer a compact single-step form for mobile learners.",
+      "artifact_version": 1,
+      "subject": null,
+      "decision": null
+    }
+  },
+  {
+    "id": "ada-decision",
+    "trigger": {
+      "kind": "message_sent",
+      "recipient": "ada",
+      "topic": "clarification",
+      "artifact_version": 1,
+      "subject": "form_layout"
+    },
+    "delay_business_minutes": 10,
+    "kind": "message",
+    "payload": {
+      "id": "in-ada-decision",
+      "sender": "ada",
+      "recipient": "coordinator",
+      "thread": "HL-website",
+      "topic": "decision",
+      "body": "Keep a compact single-step form with name and email. Do not add new fields.",
+      "artifact_version": 1,
+      "subject": "form_layout",
+      "decision": {
+        "topic": "form_layout",
+        "choice": "compact_single_step",
+        "fields": [
+          "name",
+          "email"
+        ]
+      }
+    }
+  },
+  {
+    "id": "design-revised",
+    "trigger": {
+      "kind": "message_sent",
+      "recipient": "leo",
+      "topic": "review_request",
+      "artifact_version": 1
+    },
+    "delay_business_minutes": 25,
+    "kind": "version_change",
+    "payload": {
+      "document": {
+        "id": "design",
+        "version": 2,
+        "title": "Home design revision 2",
+        "body": "The signup form is now inline rather than in a panel. Contractual fields and consent remain unchanged. Reconfirm layout feedback affected by this revision; contrast feedback still applies.",
+        "audience": "project",
+        "current": true
+      }
+    }
+  },
+  {
+    "id": "leo-v2",
+    "trigger": {
+      "kind": "message_sent",
+      "recipient": "leo",
+      "topic": "review_request",
+      "artifact_version": 2
+    },
+    "delay_business_minutes": 10,
+    "kind": "message",
+    "payload": {
+      "id": "in-leo-v2",
+      "sender": "leo",
+      "recipient": "coordinator",
+      "thread": "HL-website",
+      "topic": "feedback",
+      "body": "For v2, the compact inline form works.",
+      "artifact_version": 2,
+      "subject": null,
+      "decision": null
+    }
+  },
+  {
+    "id": "nia-v2",
+    "trigger": {
+      "kind": "message_sent",
+      "recipient": "nia",
+      "topic": "review_request",
+      "artifact_version": 2
+    },
+    "delay_business_minutes": 12,
+    "kind": "message",
+    "payload": {
+      "id": "in-nia-v2",
+      "sender": "nia",
+      "recipient": "coordinator",
+      "thread": "HL-website",
+      "topic": "feedback",
+      "body": "For v2, keep the inline form and improve heading contrast.",
+      "artifact_version": 2,
+      "subject": null,
+      "decision": null
+    }
+  },
+  {
+    "id": "ada-v2",
+    "trigger": {
+      "kind": "message_sent",
+      "recipient": "ada",
+      "topic": "clarification",
+      "artifact_version": 2,
+      "subject": "form_layout"
+    },
+    "delay_business_minutes": 10,
+    "kind": "message",
+    "payload": {
+      "id": "in-ada-v2",
+      "sender": "ada",
+      "recipient": "coordinator",
+      "thread": "HL-website",
+      "topic": "decision",
+      "body": "Approve the compact inline form for revision 2, with name and email.",
+      "artifact_version": 2,
+      "subject": "form_layout",
+      "decision": {
+        "topic": "form_layout",
+        "choice": "compact_inline",
+        "fields": [
+          "name",
+          "email"
+        ]
+      }
+    }
+  }
+]

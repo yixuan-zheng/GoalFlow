@@ -1,0 +1,27 @@
+{
+  "baseline": "Native Restate Virtual Object",
+  "server_version": "1.8.1",
+  "server_archive": "https://github.com/restatedev/restate/releases/download/v1.8.1/restate-server-aarch64-apple-darwin.tar.xz",
+  "server_archive_sha256": "e2ea3dce01140981fe4d15a09e53718681574d3a290f5566b1025b4a2696a3eb",
+  "checksum_source": "https://github.com/restatedev/restate/releases/download/v1.8.1/restate-server-aarch64-apple-darwin.tar.xz.sha256",
+  "sdk_distribution": "restate-sdk",
+  "sdk_version": "1.1.0",
+  "python_version": "3.11.5",
+  "hypercorn_version": "0.18.0",
+  "platform": "Darwin arm64",
+  "reviewed_on": "2026-10-22",
+  "primary_documentation": [
+    "https://docs.restate.dev/develop/python/services",
+    "https://docs.restate.dev/develop/python/state",
+    "https://docs.restate.dev/develop/python/serving",
+    "https://docs.restate.dev/develop/python/durable-steps",
+    "https://docs.restate.dev/references/server-config"
+  ],
+  "setup_observations": [
+    "Docker CLI was present; daemon was unavailable. Used an official standalone macOS binary instead.",
+    "Sandbox DNS and loopback binding were denied. Download and local-process execution succeeded with sandbox escalation.",
+    "Server archive SHA256 matched the official checksum.",
+    "Real ingress calls to a temporary VirtualObject persisted a counter from 1 to 2.",
+    "Smoke service and server were stopped after verification. No business integrations or paid model calls were used."
+  ]
+}

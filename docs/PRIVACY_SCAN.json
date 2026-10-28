@@ -1,0 +1,13 @@
+{
+  "scope": "Final complete release tree; inventory generated afterward from audited bytes and verified separately",
+  "files_scanned": 208,
+  "high_confidence_findings": [],
+  "email_classification": {
+    "synthetic .test": 137,
+    "public upstream attribution": 14
+  },
+  "json_files_parsed": 67,
+  "sqlite_files": 0,
+  "broken_local_markdown_links": [],
+  "limitations": "Signature scanning cannot prove absence of every secret. Public upstream notices and synthetic .test identities retained. Raw databases, logs and archives excluded rather than edited."
+}

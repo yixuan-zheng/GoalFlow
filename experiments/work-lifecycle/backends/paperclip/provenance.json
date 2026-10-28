@@ -1,0 +1,32 @@
+[
+  {
+    "local_path": "vendor/status-arbiter.ts",
+    "upstream_path": "server/src/services/native-runtime/status-arbiter.ts",
+    "repository": "paperclipai/paperclip",
+    "revision": "4dfcb4c9b8043d7fadaaed5f6cbab0c1e5cf8f2f",
+    "git_blob_sha": "ba6111fe99d0b668690648f659b54d4529b8909d",
+    "url": "https://github.com/paperclipai/paperclip/blob/4dfcb4c9b8043d7fadaaed5f6cbab0c1e5cf8f2f/server/src/services/native-runtime/status-arbiter.ts",
+    "modifications": "none",
+    "accessed_on": "2026-10-22"
+  },
+  {
+    "local_path": "vendor/native-provider-failure.ts",
+    "upstream_path": "server/src/services/native-runtime/native-provider-failure.ts",
+    "repository": "paperclipai/paperclip",
+    "revision": "4dfcb4c9b8043d7fadaaed5f6cbab0c1e5cf8f2f",
+    "git_blob_sha": "db5d0e2881462cea6aaa27a176daba99f318a7c4",
+    "url": "https://github.com/paperclipai/paperclip/blob/4dfcb4c9b8043d7fadaaed5f6cbab0c1e5cf8f2f/server/src/services/native-runtime/native-provider-failure.ts",
+    "modifications": "none",
+    "accessed_on": "2026-10-22"
+  },
+  {
+    "local_path": "vendor/LICENSE",
+    "upstream_path": "LICENSE",
+    "repository": "paperclipai/paperclip",
+    "revision": "4dfcb4c9b8043d7fadaaed5f6cbab0c1e5cf8f2f",
+    "git_blob_sha": "a63594a5150d0ae00c3ddc36b61fa8f708c3ca8c",
+    "url": "https://github.com/paperclipai/paperclip/blob/4dfcb4c9b8043d7fadaaed5f6cbab0c1e5cf8f2f/LICENSE",
+    "modifications": "none",
+    "accessed_on": "2026-10-22"
+  }
+]

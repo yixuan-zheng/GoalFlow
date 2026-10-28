@@ -1,0 +1,281 @@
+[
+  {
+    "name": "annotated-types",
+    "version": "0.8.0",
+    "declared_license": "MIT",
+    "notices": [
+      "docs/dependency-notices/annotated-types/LICENSE"
+    ]
+  },
+  {
+    "name": "anyio",
+    "version": "4.15.1",
+    "declared_license": "MIT",
+    "notices": [
+      "docs/dependency-notices/anyio/LICENSE"
+    ]
+  },
+  {
+    "name": "attrs",
+    "version": "26.1.0",
+    "declared_license": "MIT",
+    "notices": [
+      "docs/dependency-notices/attrs/LICENSE"
+    ]
+  },
+  {
+    "name": "certifi",
+    "version": "2026.10.23",
+    "declared_license": "MPL-2.0",
+    "notices": [
+      "docs/dependency-notices/certifi/LICENSE"
+    ]
+  },
+  {
+    "name": "cffi",
+    "version": "2.1.1",
+    "declared_license": "MIT-0",
+    "notices": [
+      "docs/dependency-notices/cffi/LICENSE"
+    ]
+  },
+  {
+    "name": "click",
+    "version": "8.5.0",
+    "declared_license": "BSD-3-Clause",
+    "notices": [
+      "docs/dependency-notices/click/LICENSE.txt"
+    ]
+  },
+  {
+    "name": "cryptography",
+    "version": "50.0.2",
+    "declared_license": "Apache-2.0 OR BSD-3-Clause",
+    "notices": [
+      "docs/dependency-notices/cryptography/LICENSE",
+      "docs/dependency-notices/cryptography/LICENSE.APACHE",
+      "docs/dependency-notices/cryptography/LICENSE.BSD"
+    ]
+  },
+  {
+    "name": "h11",
+    "version": "0.16.0",
+    "declared_license": "MIT",
+    "notices": [
+      "docs/dependency-notices/h11/LICENSE.txt"
+    ]
+  },
+  {
+    "name": "httpcore",
+    "version": "1.0.9",
+    "declared_license": "BSD-3-Clause",
+    "notices": [
+      "docs/dependency-notices/httpcore/LICENSE.md"
+    ]
+  },
+  {
+    "name": "httpx",
+    "version": "0.28.1",
+    "declared_license": "BSD-3-Clause",
+    "notices": [
+      "docs/dependency-notices/httpx/LICENSE.md"
+    ]
+  },
+  {
+    "name": "httpx-sse",
+    "version": "0.4.3",
+    "declared_license": "MIT",
+    "notices": [
+      "docs/dependency-notices/httpx-sse/LICENSE"
+    ]
+  },
+  {
+    "name": "idna",
+    "version": "3.20",
+    "declared_license": "BSD-3-Clause",
+    "notices": [
+      "docs/dependency-notices/idna/LICENSE.md"
+    ]
+  },
+  {
+    "name": "iniconfig",
+    "version": "2.3.1",
+    "declared_license": "MIT",
+    "notices": [
+      "docs/dependency-notices/iniconfig/LICENSE"
+    ]
+  },
+  {
+    "name": "jsonschema",
+    "version": "4.26.0",
+    "declared_license": "MIT",
+    "notices": [
+      "docs/dependency-notices/jsonschema/COPYING"
+    ]
+  },
+  {
+    "name": "jsonschema-specifications",
+    "version": "2025.9.1",
+    "declared_license": "MIT",
+    "notices": [
+      "docs/dependency-notices/jsonschema-specifications/COPYING"
+    ]
+  },
+  {
+    "name": "mcp",
+    "version": "1.28.0",
+    "declared_license": "MIT",
+    "notices": [
+      "docs/dependency-notices/mcp/LICENSE"
+    ]
+  },
+  {
+    "name": "packaging",
+    "version": "26.3",
+    "declared_license": "Apache-2.0 OR BSD-2-Clause",
+    "notices": [
+      "docs/dependency-notices/packaging/LICENSE",
+      "docs/dependency-notices/packaging/LICENSE.APACHE",
+      "docs/dependency-notices/packaging/LICENSE.BSD"
+    ]
+  },
+  {
+    "name": "pluggy",
+    "version": "1.7.0",
+    "declared_license": "MIT",
+    "notices": [
+      "docs/dependency-notices/pluggy/LICENSE"
+    ]
+  },
+  {
+    "name": "pycparser",
+    "version": "3.12",
+    "declared_license": "BSD-3-Clause",
+    "notices": [
+      "docs/dependency-notices/pycparser/LICENSE"
+    ]
+  },
+  {
+    "name": "pydantic",
+    "version": "2.14.1",
+    "declared_license": "MIT",
+    "notices": [
+      "docs/dependency-notices/pydantic/LICENSE"
+    ]
+  },
+  {
+    "name": "pydantic-settings",
+    "version": "2.16.2",
+    "declared_license": "MIT",
+    "notices": [
+      "docs/dependency-notices/pydantic-settings/LICENSE"
+    ]
+  },
+  {
+    "name": "pydantic_core",
+    "version": "2.50.1",
+    "declared_license": "MIT",
+    "notices": [
+      "docs/dependency-notices/pydantic_core/LICENSE"
+    ]
+  },
+  {
+    "name": "Pygments",
+    "version": "2.21.0",
+    "declared_license": "BSD-2-Clause",
+    "notices": [
+      "docs/dependency-notices/Pygments/AUTHORS",
+      "docs/dependency-notices/Pygments/LICENSE"
+    ]
+  },
+  {
+    "name": "PyJWT",
+    "version": "2.15.1",
+    "declared_license": "MIT",
+    "notices": [
+      "docs/dependency-notices/PyJWT/AUTHORS.rst",
+      "docs/dependency-notices/PyJWT/LICENSE"
+    ]
+  },
+  {
+    "name": "pytest",
+    "version": "9.1.1",
+    "declared_license": "MIT",
+    "notices": [
+      "docs/dependency-notices/pytest/LICENSE"
+    ]
+  },
+  {
+    "name": "python-dotenv",
+    "version": "1.2.4",
+    "declared_license": "BSD-3-Clause",
+    "notices": [
+      "docs/dependency-notices/python-dotenv/LICENSE"
+    ]
+  },
+  {
+    "name": "python-multipart",
+    "version": "0.0.32",
+    "declared_license": "Apache-2.0",
+    "notices": [
+      "docs/dependency-notices/python-multipart/LICENSE.txt"
+    ]
+  },
+  {
+    "name": "referencing",
+    "version": "0.37.0",
+    "declared_license": "MIT",
+    "notices": [
+      "docs/dependency-notices/referencing/COPYING"
+    ]
+  },
+  {
+    "name": "rpds-py",
+    "version": "2026.9.1",
+    "declared_license": "MIT",
+    "notices": [
+      "docs/dependency-notices/rpds-py/LICENSE"
+    ]
+  },
+  {
+    "name": "sse-starlette",
+    "version": "3.6.0",
+    "declared_license": "BSD-3-Clause",
+    "notices": [
+      "docs/dependency-notices/sse-starlette/AUTHORS",
+      "docs/dependency-notices/sse-starlette/LICENSE"
+    ]
+  },
+  {
+    "name": "starlette",
+    "version": "1.10.0",
+    "declared_license": "BSD-3-Clause",
+    "notices": [
+      "docs/dependency-notices/starlette/LICENSE.md"
+    ]
+  },
+  {
+    "name": "typing-inspection",
+    "version": "0.4.4",
+    "declared_license": "MIT",
+    "notices": [
+      "docs/dependency-notices/typing-inspection/LICENSE"
+    ]
+  },
+  {
+    "name": "typing_extensions",
+    "version": "4.16.0",
+    "declared_license": "PSF-2.0",
+    "notices": [
+      "docs/dependency-notices/typing_extensions/LICENSE"
+    ]
+  },
+  {
+    "name": "uvicorn",
+    "version": "0.54.0",
+    "declared_license": "BSD-3-Clause",
+    "notices": [
+      "docs/dependency-notices/uvicorn/LICENSE.md"
+    ]
+  }
+]

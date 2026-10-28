@@ -1,0 +1,46 @@
+[
+  {
+    "id": "leo-review",
+    "trigger": {
+      "kind": "message_sent",
+      "recipient": "leo",
+      "topic": "review_request",
+      "artifact_version": 1
+    },
+    "delay_business_minutes": 15,
+    "kind": "message",
+    "payload": {
+      "id": "in-leo-review",
+      "sender": "leo",
+      "recipient": "coordinator",
+      "thread": "HL-website",
+      "topic": "feedback",
+      "body": "The blue workshop heading is hard to read; increase contrast.",
+      "artifact_version": 1,
+      "subject": null,
+      "decision": null
+    }
+  },
+  {
+    "id": "nia-review",
+    "trigger": {
+      "kind": "message_sent",
+      "recipient": "nia",
+      "topic": "review_request",
+      "artifact_version": 1
+    },
+    "delay_business_minutes": 20,
+    "kind": "message",
+    "payload": {
+      "id": "in-nia-review",
+      "sender": "nia",
+      "recipient": "coordinator",
+      "thread": "HL-website",
+      "topic": "feedback",
+      "body": "Improve the workshop card heading contrast. Also keep keyboard focus visible.",
+      "artifact_version": 1,
+      "subject": null,
+      "decision": null
+    }
+  }
+]

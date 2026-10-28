@@ -1,0 +1,12 @@
+.venv/
+__pycache__/
+.pytest_cache/
+*.pyc
+.env
+secrets/
+data/
+runs/
+output/
+*.egg-info/
+experiments/work-lifecycle/results/
+**/.runtime/

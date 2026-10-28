@@ -1,0 +1,50 @@
+{
+  "selected_run": "results/20261022T193526095350Z-comparison-final",
+  "spec_sha256": "f6ce9d223a0823647bee4f1a2ce9659331540f9eb9739c70e4cebb86b60822ce",
+  "required": {
+    "durable_runtime": {
+      "passed": 24,
+      "total": 24
+    },
+    "paperclip": {
+      "passed": 24,
+      "total": 24
+    },
+    "goalflow_minimal": {
+      "passed": 24,
+      "total": 24
+    }
+  },
+  "supplemental": {
+    "durable_runtime": {
+      "passed": 12,
+      "total": 12
+    },
+    "paperclip": {
+      "passed": 14,
+      "total": 14
+    },
+    "goalflow_minimal": {
+      "passed": 14,
+      "total": 14
+    }
+  },
+  "assertions": 10742,
+  "all_cases_pass": true,
+  "all_backends_unchanged_on_transfer": true,
+  "vendor_git_blobs_verified": true,
+  "code_metric": {
+    "best_comparator_custom_total": 250,
+    "goalflow_custom_total": 228,
+    "reduction_fraction": 0.088,
+    "required_reduction": 0.3,
+    "numeric_threshold_met": false
+  },
+  "decision": "stop_framework_expansion; preserve_prototype",
+  "limits": [
+    "scripted local workers, not LLM reliability",
+    "no human productivity measurement",
+    "Paperclip extraction, not full product",
+    "no independent application/adoption validation"
+  ]
+}

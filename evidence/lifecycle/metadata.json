@@ -1,0 +1,54 @@
+{
+  "started_at": "2026-10-22T19:35:26.095534+00:00",
+  "python": "3.11.5 (v3.11.5:cce6ba91b3, Aug 24 2023, 10:50:31) [Clang 13.0.0 (clang-1300.0.29.30)]",
+  "platform": "macOS-27.0.1-arm64-arm-64bit",
+  "spec_sha256": "f6ce9d223a0823647bee4f1a2ce9659331540f9eb9739c70e4cebb86b60822ce",
+  "arguments": {
+    "backends": [
+      "durable_runtime",
+      "paperclip",
+      "goalflow_minimal"
+    ],
+    "domains": [
+      "coding",
+      "research"
+    ],
+    "scenarios": [
+      "normal_continuation",
+      "early_event",
+      "duplicate_event",
+      "revision_after_artifact",
+      "cancel_late_result",
+      "unsupported_completion",
+      "worker_crash",
+      "missed_wake",
+      "duplicate_wake",
+      "stale_same_revision",
+      "bounded_no_progress",
+      "restart_persistence"
+    ],
+    "label": "comparison-final",
+    "supplemental": true
+  },
+  "source_hashes": {
+    "durable_runtime": {
+      "backends/durable_runtime/backend.py": "66992971f6bef9c85e8ffe23d9e982f969bfa1cce2f91406d7716102a5218da8",
+      "backends/durable_runtime/manager.py": "8f9cd71c79340cde99582b422c4ac6b7a39182e4081eb200946fe844308a7b8b",
+      "backends/durable_runtime/requirements.lock": "5221bdd3d848eedc61e34d1b954691668fc34bb86feca2470f695b169e967a51",
+      "backends/durable_runtime/restate.toml": "238987cdbd88e0c43336706efc643d3a7b80f8e3a3a6533d5b30e267052aea8a",
+      "backends/durable_runtime/service.py": "1e8888d597ae03914e32fb4b6283bb37970fc4e5e4ad90c6110ae6c7d8288090",
+      "backends/durable_runtime/setup.py": "287fc4e4a671b8e0bf1487c9f2cabbe131f2036e65a0a1a7711788498eee37b8"
+    },
+    "paperclip": {
+      "backends/paperclip/arbiter-runner.mjs": "79b442731d2ecc29bb58d9e39f9390db406fb46105785715970d67fce58d058e",
+      "backends/paperclip/backend.py": "e9802e7976a9528fc7665953bcbe129e714caf1703928f89695eecf67f401f78",
+      "backends/paperclip/resolve-ts.mjs": "2a201a179b0b5a8c0311945b23d4c0efec2bd20a69e9a92682608739fc1e0370",
+      "backends/paperclip/vendor/native-provider-failure.ts": "1a3a6da4a50738fbd49981db835cad1d91c43ed007d15fac55836549493c736f",
+      "backends/paperclip/vendor/status-arbiter.ts": "a62a9852fb036dad146a4051bd3e0f18c8e8ce3968d87317c2842687e9609cc6"
+    },
+    "goalflow_minimal": {
+      "backends/goalflow_minimal/backend.py": "50e2609e94dd8e0637feb3b0b55191bffcd3c3c1c6aa4cc41cda3ac84d3af927",
+      "backends/goalflow_minimal/core.py": "08930d3787755733d6c5b4fd65b91a277db227e4b0e51e88fec2ef54ce548a27"
+    }
+  }
+}

@@ -1,0 +1,207 @@
+{
+  "version": 3,
+  "delivery_due": "2026-10-20T17:00:00-04:00",
+  "requirements": {
+    "form_present": true,
+    "fields": [
+      "name",
+      "email"
+    ],
+    "consent_preselected": false,
+    "cta": "interest_registration",
+    "contrast_required": true,
+    "keyboard_required": true
+  },
+  "cases": {
+    "C01": {
+      "expected_status": "completed",
+      "final_version": 1,
+      "decision_required": false,
+      "review_sources": {
+        "leo": "in-leo-review",
+        "nia": "in-nia-review"
+      },
+      "required_items": {
+        "form_layout": "compact_single_step",
+        "hero_copy": "Evening learning, at your pace.",
+        "contrast": "improve_heading_contrast"
+      }
+    },
+    "C04": {
+      "expected_status": "completed",
+      "final_version": 1,
+      "decision_required": false,
+      "review_sources": {
+        "leo": "in-leo-review",
+        "nia": "in-nia-late"
+      },
+      "required_items": {
+        "form_layout": "compact_single_step",
+        "hero_copy": "Evening learning, at your pace.",
+        "contrast": "improve_heading_contrast"
+      }
+    },
+    "C06": {
+      "expected_status": "completed",
+      "final_version": 1,
+      "decision_required": true,
+      "review_sources": {
+        "leo": "in-leo-review",
+        "nia": "in-nia-review"
+      },
+      "required_items": {
+        "form_layout": "compact_single_step"
+      }
+    },
+    "C05DEV": {
+      "expected_status": "completed",
+      "final_version": 2,
+      "decision_required": true,
+      "review_sources": {
+        "leo": "in-leo-v2",
+        "nia": "in-nia-v2"
+      },
+      "required_items": {
+        "form_layout": "compact_inline",
+        "contrast": "improve_heading_contrast"
+      }
+    },
+    "C07DEV": {
+      "expected_status": "completed",
+      "final_version": 1,
+      "decision_required": false,
+      "review_sources": {
+        "leo": "in-leo-review",
+        "nia": "in-nia-review"
+      },
+      "required_items": {
+        "form_layout": "compact_single_step",
+        "headline": "keep_current_headline",
+        "contrast": "improve_heading_contrast"
+      },
+      "required_sources": [
+        "message:in-leo-retraction"
+      ],
+      "forbidden_active_keys": [
+        "hero_copy"
+      ]
+    },
+    "R01": {
+      "expected_status": "completed",
+      "final_version": 1,
+      "decision_required": false,
+      "review_sources": {
+        "leo": "in-leo-review",
+        "nia": "in-nia-review"
+      },
+      "required_items": {
+        "form_layout": "compact_single_step",
+        "hero_copy": "Evening learning, at your pace.",
+        "contrast": "improve_heading_contrast"
+      }
+    },
+    "VBLOCK": {
+      "expected_status": "blocked",
+      "final_version": 1,
+      "decision_required": true,
+      "review_sources": {
+        "leo": "in-leo-review",
+        "nia": "in-nia-review"
+      },
+      "required_items": {}
+    },
+    "C01V2": {
+      "expected_status": "completed",
+      "final_version": 1,
+      "decision_required": false,
+      "review_sources": {
+        "leo": "in-leo-review",
+        "nia": "in-nia-review"
+      },
+      "required_items": {
+        "form_layout": "compact_single_step",
+        "hero_copy": "Evening learning, at your pace.",
+        "contrast": "improve_heading_contrast"
+      },
+      "delegation_source": "ada-handoff-delegation"
+    },
+    "C04V2": {
+      "expected_status": "completed",
+      "final_version": 1,
+      "decision_required": false,
+      "review_sources": {
+        "leo": "in-leo-review",
+        "nia": "in-nia-late"
+      },
+      "required_items": {
+        "form_layout": "compact_single_step",
+        "hero_copy": "Evening learning, at your pace.",
+        "contrast": "improve_heading_contrast"
+      },
+      "delegation_source": "ada-handoff-delegation"
+    },
+    "C06V2": {
+      "expected_status": "completed",
+      "final_version": 1,
+      "decision_required": true,
+      "review_sources": {
+        "leo": "in-leo-review",
+        "nia": "in-nia-review"
+      },
+      "required_items": {
+        "form_layout": "compact_single_step"
+      },
+      "delegation_source": "ada-handoff-delegation"
+    },
+    "C05DEVV2": {
+      "expected_status": "completed",
+      "final_version": 2,
+      "decision_required": true,
+      "review_sources": {
+        "leo": "in-leo-v2",
+        "nia": "in-nia-v2"
+      },
+      "required_items": {
+        "form_layout": "compact_inline",
+        "contrast": "improve_heading_contrast"
+      }
+    },
+    "C07DEVV2": {
+      "expected_status": "completed",
+      "final_version": 1,
+      "decision_required": false,
+      "review_sources": {
+        "leo": "in-leo-review",
+        "nia": "in-nia-review"
+      },
+      "required_items": {
+        "form_layout": "compact_single_step",
+        "headline": "keep_current_headline",
+        "contrast": "improve_heading_contrast"
+      },
+      "required_sources": [
+        "message:in-leo-retraction"
+      ],
+      "forbidden_active_keys": [
+        "hero_copy"
+      ],
+      "delegation_source": "ada-handoff-delegation",
+      "retraction_source": "in-leo-retraction"
+    },
+    "R01V2": {
+      "expected_status": "completed",
+      "final_version": 1,
+      "decision_required": false,
+      "review_sources": {
+        "leo": "in-leo-review",
+        "nia": "in-nia-review"
+      },
+      "required_items": {
+        "form_layout": "compact_single_step",
+        "hero_copy": "Evening learning, at your pace.",
+        "contrast": "improve_heading_contrast"
+      },
+      "delegation_source": "ada-handoff-delegation"
+    }
+  }
+}

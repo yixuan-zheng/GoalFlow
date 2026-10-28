@@ -1,0 +1,46 @@
+[
+  {
+    "id": "leo-review",
+    "trigger": {
+      "kind": "message_sent",
+      "recipient": "leo",
+      "topic": "review_request",
+      "artifact_version": 1
+    },
+    "delay_business_minutes": 15,
+    "kind": "message",
+    "payload": {
+      "id": "in-leo-review",
+      "sender": "leo",
+      "recipient": "coordinator",
+      "thread": "HL-website",
+      "topic": "feedback",
+      "body": "I prefer a long multi-step presentation with the same approved fields.",
+      "artifact_version": 1,
+      "subject": null,
+      "decision": null
+    }
+  },
+  {
+    "id": "nia-review",
+    "trigger": {
+      "kind": "message_sent",
+      "recipient": "nia",
+      "topic": "review_request",
+      "artifact_version": 1
+    },
+    "delay_business_minutes": 20,
+    "kind": "message",
+    "payload": {
+      "id": "in-nia-review",
+      "sender": "nia",
+      "recipient": "coordinator",
+      "thread": "HL-website",
+      "topic": "feedback",
+      "body": "I prefer a compact single-step form for mobile learners.",
+      "artifact_version": 1,
+      "subject": null,
+      "decision": null
+    }
+  }
+]

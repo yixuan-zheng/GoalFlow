@@ -1,0 +1,199 @@
+{
+  "method": "Count nonblank lines excluding comment-only lines and Python docstrings; inline code counts. This is source burden, not human productivity. Dependency source, binaries, generated outputs and documentation excluded. Vendored runtime imports/type-only source retained separately. Setup and local service management shown both included and excluded.",
+  "backends": {
+    "durable_runtime": {
+      "lifecycle": 166,
+      "transport": 12,
+      "local_operations": 123,
+      "configuration": 42,
+      "vendor": 0,
+      "custom_total": 343,
+      "custom_excluding_local_operations": 220
+    },
+    "paperclip": {
+      "lifecycle": 205,
+      "transport": 38,
+      "local_operations": 0,
+      "configuration": 7,
+      "vendor": 798,
+      "custom_total": 250,
+      "custom_excluding_local_operations": 250
+    },
+    "goalflow_minimal": {
+      "lifecycle": 192,
+      "transport": 36,
+      "local_operations": 0,
+      "configuration": 0,
+      "vendor": 0,
+      "custom_total": 228,
+      "custom_excluding_local_operations": 228
+    }
+  },
+  "shared": {
+    "applications_and_policy": 113,
+    "harness": 721
+  },
+  "files": {
+    "backends/durable_runtime/service.py": {
+      "backend": "durable_runtime",
+      "category": "lifecycle",
+      "physical_lines": 181,
+      "nonblank_noncomment_lines": 166,
+      "sha256": "1e8888d597ae03914e32fb4b6283bb37970fc4e5e4ad90c6110ae6c7d8288090"
+    },
+    "backends/durable_runtime/backend.py": {
+      "backend": "durable_runtime",
+      "category": "transport",
+      "physical_lines": 16,
+      "nonblank_noncomment_lines": 12,
+      "sha256": "66992971f6bef9c85e8ffe23d9e982f969bfa1cce2f91406d7716102a5218da8"
+    },
+    "backends/durable_runtime/manager.py": {
+      "backend": "durable_runtime",
+      "category": "local_operations",
+      "physical_lines": 109,
+      "nonblank_noncomment_lines": 92,
+      "sha256": "8f9cd71c79340cde99582b422c4ac6b7a39182e4081eb200946fe844308a7b8b"
+    },
+    "backends/durable_runtime/setup.py": {
+      "backend": "durable_runtime",
+      "category": "local_operations",
+      "physical_lines": 37,
+      "nonblank_noncomment_lines": 31,
+      "sha256": "287fc4e4a671b8e0bf1487c9f2cabbe131f2036e65a0a1a7711788498eee37b8"
+    },
+    "backends/durable_runtime/restate.toml": {
+      "backend": "durable_runtime",
+      "category": "configuration",
+      "physical_lines": 33,
+      "nonblank_noncomment_lines": 27,
+      "sha256": "238987cdbd88e0c43336706efc643d3a7b80f8e3a3a6533d5b30e267052aea8a"
+    },
+    "backends/durable_runtime/requirements.lock": {
+      "backend": "durable_runtime",
+      "category": "configuration",
+      "physical_lines": 15,
+      "nonblank_noncomment_lines": 15,
+      "sha256": "5221bdd3d848eedc61e34d1b954691668fc34bb86feca2470f695b169e967a51"
+    },
+    "backends/paperclip/backend.py": {
+      "backend": "paperclip",
+      "category": "lifecycle",
+      "physical_lines": 228,
+      "nonblank_noncomment_lines": 205,
+      "sha256": "e9802e7976a9528fc7665953bcbe129e714caf1703928f89695eecf67f401f78"
+    },
+    "backends/paperclip/arbiter-runner.mjs": {
+      "backend": "paperclip",
+      "category": "transport",
+      "physical_lines": 33,
+      "nonblank_noncomment_lines": 29,
+      "sha256": "79b442731d2ecc29bb58d9e39f9390db406fb46105785715970d67fce58d058e"
+    },
+    "backends/paperclip/resolve-ts.mjs": {
+      "backend": "paperclip",
+      "category": "transport",
+      "physical_lines": 11,
+      "nonblank_noncomment_lines": 9,
+      "sha256": "2a201a179b0b5a8c0311945b23d4c0efec2bd20a69e9a92682608739fc1e0370"
+    },
+    "backends/paperclip/package.json": {
+      "backend": "paperclip",
+      "category": "configuration",
+      "physical_lines": 7,
+      "nonblank_noncomment_lines": 7,
+      "sha256": "cc579e55ef783ecbb6ce32930ec9883d51bca46fcbb6f8c7d5bfdb3d8892e5c7"
+    },
+    "backends/paperclip/vendor/status-arbiter.ts": {
+      "backend": "paperclip",
+      "category": "vendor",
+      "physical_lines": 651,
+      "nonblank_noncomment_lines": 602,
+      "sha256": "a62a9852fb036dad146a4051bd3e0f18c8e8ce3968d87317c2842687e9609cc6"
+    },
+    "backends/paperclip/vendor/native-provider-failure.ts": {
+      "backend": "paperclip",
+      "category": "vendor",
+      "physical_lines": 244,
+      "nonblank_noncomment_lines": 196,
+      "sha256": "1a3a6da4a50738fbd49981db835cad1d91c43ed007d15fac55836549493c736f"
+    },
+    "backends/goalflow_minimal/core.py": {
+      "backend": "goalflow_minimal",
+      "category": "lifecycle",
+      "physical_lines": 220,
+      "nonblank_noncomment_lines": 192,
+      "sha256": "08930d3787755733d6c5b4fd65b91a277db227e4b0e51e88fec2ef54ce548a27"
+    },
+    "backends/goalflow_minimal/backend.py": {
+      "backend": "goalflow_minimal",
+      "category": "transport",
+      "physical_lines": 41,
+      "nonblank_noncomment_lines": 36,
+      "sha256": "50e2609e94dd8e0637feb3b0b55191bffcd3c3c1c6aa4cc41cda3ac84d3af927"
+    },
+    "applications.py": {
+      "backend": "shared",
+      "category": "applications_and_policy",
+      "physical_lines": 129,
+      "nonblank_noncomment_lines": 113,
+      "sha256": "818f21cb709d134835419611103a11dcc56d6b21001b5dbce777ca2726d841e1"
+    },
+    "command.py": {
+      "backend": "shared",
+      "category": "harness",
+      "physical_lines": 26,
+      "nonblank_noncomment_lines": 21,
+      "sha256": "61c12463a661a8e063c04ad8b02c29e28d008bd33205df5a219d4f351b8a1236"
+    },
+    "scenarios.py": {
+      "backend": "shared",
+      "category": "harness",
+      "physical_lines": 320,
+      "nonblank_noncomment_lines": 273,
+      "sha256": "60a220ea59230877de845708d6173ffd9841eb2aa84bda9c44cf3b654ee7aaab"
+    },
+    "supplemental.py": {
+      "backend": "shared",
+      "category": "harness",
+      "physical_lines": 141,
+      "nonblank_noncomment_lines": 121,
+      "sha256": "0a62a193ddd373cdf5307843462d9ff7298e36e0eb14a66cecc60f12a2c87bad"
+    },
+    "sqlite_fault.py": {
+      "backend": "shared",
+      "category": "harness",
+      "physical_lines": 30,
+      "nonblank_noncomment_lines": 22,
+      "sha256": "2d91b9ba001290ed16fd2f750c369a2ead74d4fa8fb5f518da57ea14f51756aa"
+    },
+    "run.py": {
+      "backend": "shared",
+      "category": "harness",
+      "physical_lines": 117,
+      "nonblank_noncomment_lines": 108,
+      "sha256": "96d843e932a2684d29e47acc030876ce5dd98bbc5c534431bb831a71c42075e9"
+    },
+    "measure.py": {
+      "backend": "shared",
+      "category": "harness",
+      "physical_lines": 80,
+      "nonblank_noncomment_lines": 72,
+      "sha256": "5f0047c76713c92780209db8be44a4798b9caf51d1523d08cc888bc3c15d1518"
+    },
+    "analyze.py": {
+      "backend": "shared",
+      "category": "harness",
+      "physical_lines": 115,
+      "nonblank_noncomment_lines": 104,
+      "sha256": "ce79dba02c90e19e7f88caba7d7b3c73c80b733387242c442a98b88c1c5d3722"
+    }
+  },
+  "decision_metric": {
+    "best_comparator_custom_total": 250,
+    "goalflow_custom_total": 228,
+    "reduction_fraction": 0.088,
+    "required_reduction": 0.3,
+    "numeric_threshold_met": false
+  }
+}

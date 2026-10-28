@@ -1,0 +1,33 @@
+cluster-name = "goalflow-lifecycle-experiment"
+node-name = "local-experiment"
+auto-provision = true
+default-num-partitions = 1
+default-replication = 1
+disable-telemetry = true
+listen-mode = "tcp"
+bind-address = "127.0.0.1:18522"
+advertised-address = "http://127.0.0.1:18522/"
+rocksdb-total-memory-size = "256 MiB"
+log-filter = "warn,restate=info"
+log-disable-ansi-codes = true
+
+[admin]
+bind-address = "127.0.0.1:18970"
+advertised-address = "http://127.0.0.1:18970/"
+disable-web-ui = true
+
+[admin.query-engine]
+memory-size = "128 MiB"
+
+[ingress]
+bind-address = "127.0.0.1:18080"
+advertised-address = "http://127.0.0.1:18080/"
+
+[worker]
+data-service-memory-limit = "64 MiB"
+
+[worker.invoker]
+memory-limit = "128 MiB"
+
+[bifrost]
+record-cache-memory-size = "64 MiB"

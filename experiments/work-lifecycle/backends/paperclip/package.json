@@ -1,0 +1,7 @@
+{
+  "name": "goalflow-paperclip-arbiter-extraction",
+  "private": true,
+  "type": "module",
+  "description": "Pinned Paperclip status arbiter extraction; not the Paperclip product.",
+  "engines": { "node": ">=22.6.0" }
+}

@@ -1,0 +1,57 @@
+{
+  "scope": "Curated historical records, not complete execution evidence",
+  "files": [
+    {
+      "path": "lifecycle/decision.json",
+      "sha256": "26633f3792c070a823da12c2f818123a5a05194818732b5713dd731adee99637",
+      "source": "October 22 prototype/decision.json",
+      "kind": "byte-exact copy"
+    },
+    {
+      "path": "lifecycle/code-accounting.json",
+      "sha256": "f0ec9c571000284e560113f9388d43baa60a7a8dd584a40312358764bfa0f6b0",
+      "source": "October 22 prototype/code-accounting.json",
+      "kind": "byte-exact copy"
+    },
+    {
+      "path": "lifecycle/SPEC.md",
+      "sha256": "f6ce9d223a0823647bee4f1a2ce9659331540f9eb9739c70e4cebb86b60822ce",
+      "source": "October 22 prototype/SPEC.md",
+      "kind": "byte-exact copy"
+    },
+    {
+      "path": "lifecycle/results.json",
+      "sha256": "9cbcd0bab1fb54a121a0b4ea203fd150ed2bb3569630dc12c95f119f6fe32299",
+      "source": "October 22 comparison-final/results.json",
+      "kind": "byte-exact copy"
+    },
+    {
+      "path": "lifecycle/metadata.json",
+      "sha256": "b8a4d3a9e882a428d114f12237273702fc37a30c9abb3d40318e91c690686058",
+      "source": "October 22 comparison-final/metadata.json",
+      "kind": "byte-exact copy"
+    },
+    {
+      "path": "step3-excerpt.md",
+      "sha256": "7e3a69dd810ec9128185af50be27670b30362430f7f7234b75778ac0743e8dc2",
+      "source": "October 20 discovery report",
+      "original_sha256": "b413da2383acfac4d2c78d64422a3f37c0df17cd24bbeb35c3395b37efb2411d",
+      "lines": [
+        1,
+        34
+      ],
+      "kind": "byte-exact contiguous excerpt; omitted remainder stays private"
+    },
+    {
+      "path": "adjudication-excerpt.md",
+      "sha256": "087252cf0c89376c64ccbc31ee2020153d31af7a95b9c6f7c1fdcb54ac0a2dd5",
+      "source": "October 20 separate AI adjudication summary",
+      "original_sha256": "cf0f7c7bc10fada5d2f8937f94c71ae40da606cc77ddb11c83ecb8eb37b28996",
+      "lines": [
+        1,
+        29
+      ],
+      "kind": "byte-exact contiguous excerpt; omitted remainder stays private"
+    }
+  ]
+}

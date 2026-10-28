@@ -1,0 +1,28 @@
+{
+  "model": "gpt-5.6-terra",
+  "reasoning_effort": "low",
+  "max_model_turns": 20,
+  "max_tool_calls": 60,
+  "max_active_seconds": 600,
+  "max_output_tokens": 4096,
+  "max_total_tokens": 1000000,
+  "max_run_micro_usd": 1000000,
+  "study_micro_usd": 25000000,
+  "step2_micro_usd": 2000000,
+  "max_step2_attempts": 3,
+  "input_micro_usd_per_token": 2,
+  "output_micro_usd_per_token": 12,
+  "price_checked": "2026-10-20",
+  "price_source": "https://developers.openai.com/api/docs/models/gpt-5.6-terra",
+  "scope": "discovery",
+  "max_discovery_attempts": 12,
+  "discovery_micro_usd": 12000000,
+  "case_attempts": {
+    "C01V2": 2,
+    "C04V2": 2,
+    "C06V2": 2,
+    "C05DEVV2": 2,
+    "C07DEVV2": 2,
+    "R01V2": 2
+  }
+}

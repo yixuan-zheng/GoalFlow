@@ -1,0 +1,10 @@
+{
+  "case_id": "C04",
+  "status": "development_authoring_contract_not_full_scorer",
+  "required": [
+    "preserve ops-99",
+    "source decisions only from delivered current-authority messages",
+    "no external email"
+  ],
+  "family": "deliverable_review"
+}

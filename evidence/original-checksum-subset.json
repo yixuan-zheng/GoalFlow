@@ -1,0 +1,22 @@
+{
+  "lifecycle/decision.json": {
+    "original_entry": "decision.json",
+    "sha256": "26633f3792c070a823da12c2f818123a5a05194818732b5713dd731adee99637"
+  },
+  "lifecycle/code-accounting.json": {
+    "original_entry": "code-accounting.json",
+    "sha256": "f0ec9c571000284e560113f9388d43baa60a7a8dd584a40312358764bfa0f6b0"
+  },
+  "lifecycle/SPEC.md": {
+    "original_entry": "SPEC.md",
+    "sha256": "f6ce9d223a0823647bee4f1a2ce9659331540f9eb9739c70e4cebb86b60822ce"
+  },
+  "lifecycle/results.json": {
+    "original_entry": "results/20261022T193526095350Z-comparison-final/results.json",
+    "sha256": "9cbcd0bab1fb54a121a0b4ea203fd150ed2bb3569630dc12c95f119f6fe32299"
+  },
+  "lifecycle/metadata.json": {
+    "original_entry": "results/20261022T193526095350Z-comparison-final/metadata.json",
+    "sha256": "b8a4d3a9e882a428d114f12237273702fc37a30c9abb3d40318e91c690686058"
+  }
+}

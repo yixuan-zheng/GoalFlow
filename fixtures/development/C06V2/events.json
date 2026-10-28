@@ -1,0 +1,76 @@
+[
+  {
+    "id": "leo-review",
+    "trigger": {
+      "kind": "message_sent",
+      "recipient": "leo",
+      "topic": "review_request",
+      "artifact_version": 1
+    },
+    "delay_business_minutes": 15,
+    "kind": "message",
+    "payload": {
+      "id": "in-leo-review",
+      "sender": "leo",
+      "recipient": "coordinator",
+      "thread": "HL-website",
+      "topic": "feedback",
+      "body": "I prefer a long multi-step presentation with the same approved fields.",
+      "artifact_version": 1,
+      "subject": null,
+      "decision": null
+    }
+  },
+  {
+    "id": "nia-review",
+    "trigger": {
+      "kind": "message_sent",
+      "recipient": "nia",
+      "topic": "review_request",
+      "artifact_version": 1
+    },
+    "delay_business_minutes": 20,
+    "kind": "message",
+    "payload": {
+      "id": "in-nia-review",
+      "sender": "nia",
+      "recipient": "coordinator",
+      "thread": "HL-website",
+      "topic": "feedback",
+      "body": "I prefer a compact single-step form for mobile learners.",
+      "artifact_version": 1,
+      "subject": null,
+      "decision": null
+    }
+  },
+  {
+    "id": "ada-decision",
+    "trigger": {
+      "kind": "message_sent",
+      "recipient": "ada",
+      "topic": "clarification",
+      "artifact_version": 1,
+      "subject": "form_layout"
+    },
+    "delay_business_minutes": 10,
+    "kind": "message",
+    "payload": {
+      "id": "in-ada-decision",
+      "sender": "ada",
+      "recipient": "coordinator",
+      "thread": "HL-website",
+      "topic": "decision",
+      "body": "Keep a compact single-step form with name and email. Do not add new fields.",
+      "artifact_version": 1,
+      "subject": "form_layout",
+      "decision": {
+        "topic": "form_layout",
+        "choice": "compact_single_step",
+        "fields": [
+          "name",
+          "email"
+        ]
+      }
+    }
+  }
+]
